@@ -9,13 +9,13 @@
 ```
 'providers' => array(
      //...
-     Ty666\CdnPusher\CdnPusherServiceProvider::class,
+     Sunl888\CdnPusher\CdnPusherServiceProvider::class,
 ),
 ```
 
 # 配置
 发布配置文件
-`php artisan vendor:publish --provider="Ty666\CdnPusher\CdnPusherServiceProvider"`
+`php artisan vendor:publish --provider="Sunl888\CdnPusher\CdnPusherServiceProvider"`
 配置文件保存在 `config/cdn.php` 中
 
 添加以下配置到 `.env` 文件中

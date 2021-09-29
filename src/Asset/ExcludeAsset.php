@@ -1,6 +1,6 @@
 <?php
-namespace Ty666\CdnPusher\Asset;
-use Ty666\CdnPusher\Contracts\ExcludeAsset as ExcludeAssetContract;
+namespace Sunl888\CdnPusher\Asset;
+use Sunl888\CdnPusher\Contracts\ExcludeAsset as ExcludeAssetContract;
 
 class ExcludeAsset extends Asset implements  ExcludeAssetContract{
 

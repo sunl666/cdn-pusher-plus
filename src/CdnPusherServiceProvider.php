@@ -1,13 +1,13 @@
 <?php
 
-namespace Ty666\CdnPusher;
+namespace Sunl888\CdnPusher;
 
 use Illuminate\Support\ServiceProvider;
 use Symfony\Component\Finder\Finder;
-use Ty666\CdnPusher\Asset\ExcludeAsset;
-use Ty666\CdnPusher\Asset\IncludeAsset;
-use Ty666\CdnPusher\Console\ClearCommand;
-use Ty666\CdnPusher\Console\PushCommand;
+use Sunl888\CdnPusher\Asset\ExcludeAsset;
+use Sunl888\CdnPusher\Asset\IncludeAsset;
+use Sunl888\CdnPusher\Console\ClearCommand;
+use Sunl888\CdnPusher\Console\PushCommand;
 
 class CdnPusherServiceProvider extends ServiceProvider
 {

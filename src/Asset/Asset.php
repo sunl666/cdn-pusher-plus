@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Ty666\CdnPusher\Asset;
+namespace Sunl888\CdnPusher\Asset;
 
-use Ty666\CdnPusher\Contracts\Asset as AssetContract;
+use Sunl888\CdnPusher\Contracts\Asset as AssetContract;
 
 abstract class Asset implements AssetContract
 {

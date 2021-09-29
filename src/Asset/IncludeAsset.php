@@ -1,6 +1,6 @@
 <?php
 
-namespace Ty666\CdnPusher\Asset;
-use Ty666\CdnPusher\Contracts\IncludeAsset as IncludeAssetContract;
+namespace Sunl888\CdnPusher\Asset;
+use Sunl888\CdnPusher\Contracts\IncludeAsset as IncludeAssetContract;
 
 class IncludeAsset extends Asset implements IncludeAssetContract { }

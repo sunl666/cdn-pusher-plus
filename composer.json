@@ -1,6 +1,6 @@
 {
-    "name": "ty666/cdn-pusher",
-    "description": "cdn pusher for laravel",
+    "name": "sunl888/cdn-pusher-plus",
+    "description": "cdn pusher for laravel. forked ty666/cdn-pusher",
     "type": "library",
     "authors": [
         {
@@ -11,14 +11,14 @@
         }
     ],
     "require": {
-        "symfony/finder": "^3.3|~4.0"
+        "symfony/finder": "^5.3.7"
     },
     "require-dev": {
-        "laravel/laravel": "5.*"
+        "laravel/laravel": "8.*"
     },
     "autoload": {
         "psr-4": {
-            "Ty666\\CdnPusher\\": "src/"
+            "Sunl888\\CdnPusher\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ty666\\CdnPusher\\CdnPusherServiceProvider"
+                "Sunl888\\CdnPusher\\CdnPusherServiceProvider"
             ]
         }
     }

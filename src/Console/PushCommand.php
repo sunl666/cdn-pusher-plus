@@ -1,10 +1,10 @@
 <?php
 
-namespace Ty666\CdnPusher\Console;
+namespace Sunl888\CdnPusher\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Storage;
-use Ty666\CdnPusher\Cdn;
+use Sunl888\CdnPusher\Cdn;
 
 class PushCommand extends Command
 {

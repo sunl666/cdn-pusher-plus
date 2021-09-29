@@ -1,11 +1,11 @@
 <?php
 
-namespace Ty666\CdnPusher;
+namespace Sunl888\CdnPusher;
 
 use Illuminate\Console\OutputStyle;
 use Symfony\Component\Finder\Finder;
-use Ty666\CdnPusher\Contracts\ExcludeAsset;
-use Ty666\CdnPusher\Contracts\IncludeAsset;
+use Sunl888\CdnPusher\Contracts\ExcludeAsset;
+use Sunl888\CdnPusher\Contracts\IncludeAsset;
 use Illuminate\Support\Facades\Storage;
 
 class Cdn
