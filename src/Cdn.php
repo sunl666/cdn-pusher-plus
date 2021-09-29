@@ -59,7 +59,7 @@ class Cdn
                 continue;
             }
             if ($cdnFilesystem->exists($assetFile->getRelativePathname())) {
-                $cdnFilesystem->put($assetFile->getRelativePathname(), file_get_contents($assetFile->getRealPath()));
+                $cdnFilesystem->update($assetFile->getRelativePathname(), file_get_contents($assetFile->getRealPath()));
             } else {
                 $cdnFilesystem->put($assetFile->getRelativePathname(), file_get_contents($assetFile->getRealPath()));
             }
